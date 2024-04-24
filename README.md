@@ -8,7 +8,7 @@ PGP 9.5 image, DAPI image, and PGP 9.5 DAPI overlay image for each input image.
 
 ## How to Run
 In the commandline, use the following command:
-'''python flatten_and_merge.py'''
+```python flatten_and_merge.py```
 Next, input your input folder path and output folder path as directed.
 
 ## Input
