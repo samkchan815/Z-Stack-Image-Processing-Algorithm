@@ -1,12 +1,18 @@
 # Z-Stack-Image-Processing-Algorithm
 Python algorithm to flatten and merge .czi and .tif images.
 
-## Purpose
-Merge and Flatten Z-Stack Images from a folder and outputting a PGP 9.5 image, DAPI image, and PGP 9.5 DAPI 
-overlay image.
+## Description
+This algorithm works to merge and flatten z-stack .czi and .tif images from a folder. By using a maximum intensity projection along the z-axis and 
+merging the channels of the image together, we are able to output a flattened image. Once completed, the algorithm outputs a 
+PGP 9.5 image, DAPI image, and PGP 9.5 DAPI overlay image for each input image. 
+
+## How to Run
+In the commandline, use the following command:
+'''python flatten_and_merge.py'''
+Next, input your input folder path and output folder path as directed.
 
 ## Input
-Path of file containing .czi and .tif images to merge and flatten
+Path of file containing .czi and .tif images to merge and flatten. 
 
 ## Output
 Folder containing PGP 9.5 image, DAPI image, and PGP 9.5 DAPI overlay images for each input image. If no folder 
