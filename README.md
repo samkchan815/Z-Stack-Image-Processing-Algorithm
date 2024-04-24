@@ -25,3 +25,5 @@ TIF image:
 image array shape: (16, 2, 973, 974)
 - 16 slices in z-stack
 - 2 channels
+
+Link to Gomez Lab Github: https://github.com/Gomez-Lab
