@@ -14,6 +14,7 @@ exists in directory, a folder will be created.
 
 ## Additional Information
 The code for this algorithm runs under the assumption that the image files have the following properties:
+
 CZI image: 
 image array shape: (1, 1, 1, 2, 16, 972, 973, 1)
 - 16 slices in z-stack
