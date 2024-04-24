@@ -79,7 +79,7 @@ def z_stack_tif(tif_array):
 # read in images from folder and input into array
 images = []
 input_dir = input("Enter the path of the directory containing images: ")
-output_dir = "Innervation Output"
+output_dir = input("Enter the path of output folder: ")
 
 # if output directory does not exist, create one
 if not os.path.exists(output_dir):
